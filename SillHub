@@ -16,7 +16,7 @@ Page1:Toggle('Auto Catch',false,function(value)
 end)
 
 spawn(function()
-    while wait(0.2) do
+    while wait(0.4) do
         if Catch then
             pcall(function()
 local args = {
