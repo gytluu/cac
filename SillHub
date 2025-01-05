@@ -23,7 +23,7 @@ local args = {
     [1] = 0.10000000149011612
 }
 
-game:GetService("Players").LocalPlayer.Character:FindFirstChild("Seraphic Rod").events.cast:FireServer(unpack(args))
+game:GetService("Players").LocalPlayer.Character:FindFirstChild("Shark Hunter Rod").events.cast:FireServer(unpack(args))
             end)
         end
     end
