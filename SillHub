@@ -20,7 +20,7 @@ spawn(function()
         if Catch then
             pcall(function()
 local args = {
-    [1] = 0.10000000149011612
+    [1] = 0.05000000074505806
 }
 
 game:GetService("Players").LocalPlayer.Character:FindFirstChild("Shark Hunter Rod").events.cast:FireServer(unpack(args))
