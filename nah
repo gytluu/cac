@@ -541,7 +541,7 @@ function library:Evil(text,text2,logo)
 	dragify(ClickFrame, Main)
 	local tabs = {}
 	local S = false
-	function tabs:CraftTab(Name,icon)
+	function tabs:CreateTab(Name,icon)
 		local FrameTab = Instance.new("Frame")
 		local Tab = Instance.new("TextButton")
 		local UICorner_3 = Instance.new("UICorner")
@@ -752,7 +752,7 @@ function library:Evil(text,text2,logo)
 		end)
 
 		local sections = {}
-		function sections:CraftPage(Name,side)
+		function sections:CreatePage(Name,side)
 
 			if side == nil then
 				return Left
